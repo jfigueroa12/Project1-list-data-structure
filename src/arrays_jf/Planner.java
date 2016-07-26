@@ -5,7 +5,7 @@ package arrays_jf;
  * objects.  Abstract data type: List.
  * 
  * 
- * @author flyasth3sky
+ * @author Jonathan Figueroa
  */
 public class Planner implements Cloneable {
     
