@@ -21,7 +21,7 @@ public class Course implements Cloneable {
    
     
     /**
-     * Initializes a Course with a name, department, code, section and instructor
+     * Initializes a Course with a name, department, code, section and instructor.
      * 
      * @param name
      *      name of the course
@@ -51,16 +51,16 @@ public class Course implements Cloneable {
     /**
      * Returns the name of the Course as a String.
      * 
-     * @return the name of the Course as a String
+     * @return the name of the Course as a String.
      */
     public String getName() {
         return name;
     }
 
     /**
-     * Set the name of the Course to the new name provided in the argument
+     * Set the name of the Course to the new name provided in the argument.
      * @param name 
-     *      the new Course name
+     *      the new Course name.
      */
     public void setName(String name) {
         this.name = name;
@@ -68,16 +68,16 @@ public class Course implements Cloneable {
 
     /**
      * Returns the department of the Course as a String.
-     * @return the department of the Course as a String
+     * @return the department of the Course as a String.
      */
     public String getDepartment() {
         return department;
     }
 
     /**
-     * Sets the name of the department to the name passed in as an argument
+     * Sets the name of the department to the name passed in as an argument.
      * @param department 
-     *      the new name of the department
+     *      the new name of the department.
      */
     public void setDepartment(String department) {
         this.department = department;
@@ -86,16 +86,16 @@ public class Course implements Cloneable {
     /**
      * Returns the code of the Course as an integer.
      * 
-     * @return the code of the Course as an integer
+     * @return the code of the Course as an integer.
      */
     public int getCode() {
         return code;
     }
 
     /**
-     * Sets the code of the Course to the one passed in as an argument
+     * Sets the code of the Course to the one passed in as an argument.
      * @param code
-     *      the new code
+     *      the new code.
      */
     public void setCode(int code) {
         if (code < 0)
@@ -107,16 +107,16 @@ public class Course implements Cloneable {
     /**
      * Returns the section of the Course as a byte value.
      * 
-     * @return the section of the Course as a byte value
+     * @return the section of the Course as a byte value.
      */
     public byte getSection() {
         return section;
     }
 
     /**
-     * Sets the section of the Course to the one passed in as the argument
+     * Sets the section of the Course to the one passed in as the argument.
      * @param section
-     *      the new section
+     *      the new section.
      */
     public void setSection(byte section) {
         if (code < 0)
@@ -127,16 +127,16 @@ public class Course implements Cloneable {
 
     /**
      * Returns the instructor of the Course as a String.
-     * @return the instructor of the Course as a String
+     * @return the instructor of the Course as a String.
      */
     public String getInstructor() {
         return instructor;
     }
 
     /**
-     * Sets the name of the instructor to the name passed in as the argument
+     * Sets the name of the instructor to the name passed in as the argument.
      * @param instructor
-     *      the new instructor of the Course
+     *      the new instructor of the Course.
      */
     public void setInstructor(String instructor) {
         this.instructor = instructor;
@@ -158,9 +158,11 @@ public class Course implements Cloneable {
     /**
      * Creates and returns a copy of this object.  Changes to the copy will not
      * affect the original.
-     * @return a clone of this object
-     * @throws CloneNotSupportedException - if this object does not support 
-     * Cloneable interface 
+     * @return 
+     *      A clone of this object
+     * @throws CloneNotSupportedException
+     *      If this object does not support 
+     * cloning.
      */
     @Override
     public Object clone() throws CloneNotSupportedException {
@@ -174,9 +176,10 @@ public class Course implements Cloneable {
      * Indicates whether the object argument is equal to this object.
      * 
      * @param obj 
-     *      the object that will be compared to this object for equality
-     * @return true if this object equals the object passed in as an argument.
-     * false otherwise
+     *      the object that will be compared to this object for equality.
+     * @return 
+     *      true if this object equals the object passed in as an argument,
+     * false otherwise.
      */
     @Override
     public boolean equals(Object obj) {
