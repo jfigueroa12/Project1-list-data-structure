@@ -35,7 +35,7 @@ public class Course implements Cloneable {
      *      name of instructor
      */
     
-    Course(String name, String department, int code, byte section, String instructor) {
+    public Course(String name, String department, int code, byte section, String instructor) {
         this.name = name;
         this.department = department;
         this.code = code;
