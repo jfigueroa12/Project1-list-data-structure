@@ -18,7 +18,7 @@ public class Planner implements Cloneable {
     /**
      *  Creates an empty Planner.
      */
-    Planner() {
+    public Planner() {
         cList = new Course[MAX_COURSES];
     }
     
