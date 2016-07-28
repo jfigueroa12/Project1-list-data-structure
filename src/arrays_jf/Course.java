@@ -24,15 +24,15 @@ public class Course implements Cloneable {
      * Initializes a Course with a name, department, code, section and instructor.
      * 
      * @param name
-     *      name of the course
+     *      Name of the course
      * @param department
-     *      name of the department
+     *      Name of the department
      * @param code
-     *      class number
+     *      Class number
      * @param section
-     *      course section
+     *      Course section
      * @param instructor
-     *      name of instructor
+     *      Name of instructor
      */
     
     public Course(String name, String department, int code, byte section, String instructor) {
@@ -51,7 +51,7 @@ public class Course implements Cloneable {
     /**
      * Returns the name of the Course as a String.
      * 
-     * @return the name of the Course as a String.
+     * @return The name of the Course as a String.
      */
     public String getName() {
         return name;
@@ -60,7 +60,7 @@ public class Course implements Cloneable {
     /**
      * Set the name of the Course to the new name provided in the argument.
      * @param name 
-     *      the new Course name.
+     *      The new Course name.
      */
     public void setName(String name) {
         this.name = name;
@@ -68,7 +68,7 @@ public class Course implements Cloneable {
 
     /**
      * Returns the department of the Course as a String.
-     * @return the department of the Course as a String.
+     * @return The department of the Course as a String.
      */
     public String getDepartment() {
         return department;
@@ -77,7 +77,7 @@ public class Course implements Cloneable {
     /**
      * Sets the name of the department to the name passed in as an argument.
      * @param department 
-     *      the new name of the department.
+     *      The new name of the department.
      */
     public void setDepartment(String department) {
         this.department = department;
@@ -86,7 +86,7 @@ public class Course implements Cloneable {
     /**
      * Returns the code of the Course as an integer.
      * 
-     * @return the code of the Course as an integer.
+     * @return The code of the Course as an integer.
      */
     public int getCode() {
         return code;
@@ -95,7 +95,7 @@ public class Course implements Cloneable {
     /**
      * Sets the code of the Course to the one passed in as an argument.
      * @param code
-     *      the new code.
+     *      The new code.
      */
     public void setCode(int code) {
         if (code < 0)
@@ -107,7 +107,7 @@ public class Course implements Cloneable {
     /**
      * Returns the section of the Course as a byte value.
      * 
-     * @return the section of the Course as a byte value.
+     * @return The section of the Course as a byte value.
      */
     public byte getSection() {
         return section;
@@ -116,7 +116,7 @@ public class Course implements Cloneable {
     /**
      * Sets the section of the Course to the one passed in as the argument.
      * @param section
-     *      the new section.
+     *      The new section.
      */
     public void setSection(byte section) {
         if (code < 0)
@@ -127,7 +127,7 @@ public class Course implements Cloneable {
 
     /**
      * Returns the instructor of the Course as a String.
-     * @return the instructor of the Course as a String.
+     * @return The instructor of the Course as a String.
      */
     public String getInstructor() {
         return instructor;
@@ -136,7 +136,7 @@ public class Course implements Cloneable {
     /**
      * Sets the name of the instructor to the name passed in as the argument.
      * @param instructor
-     *      the new instructor of the Course.
+     *      The new instructor of the Course.
      */
     public void setInstructor(String instructor) {
         this.instructor = instructor;
@@ -176,9 +176,9 @@ public class Course implements Cloneable {
      * Indicates whether the object argument is equal to this object.
      * 
      * @param obj 
-     *      the object that will be compared to this object for equality.
+     *      The object that will be compared to this object for equality.
      * @return 
-     *      true if this object equals the object passed in as an argument,
+     *      True if this object equals the object passed in as an argument,
      * false otherwise.
      */
     @Override
